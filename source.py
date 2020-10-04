@@ -66,7 +66,7 @@ def delete(frame):
 	for widget in frame.winfo_children():
 		widget.destroy()
 
-# builds the outposts framespip
+# builds the outposts frames
 def outpost(root, frame, row):
 	# changing window size
 	root.geometry('400x865')
